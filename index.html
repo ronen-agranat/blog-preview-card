@@ -10,49 +10,41 @@
     href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap"
     rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css" />
   
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    :root {
-      --yellow: #F4D04E;
-      --gray-950: #111111;
-      --gray-500: #6B6B6B;
-      --white: #FFFFFF;
-    }
-
-    img {
-      display: block;
-    }
-
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <main>
-    <img source="assets/images/illustration-article.svg" alt="Article illustration" />
+    <img class="cover"  src="assets/images/illustration-article.svg" alt="Article illustration" />
 
-    <span>
-      Learning
-    </span>
-    <span></span>
-      Published 21 Dec 2023
-    <span>
+    <section>
+      <span class="badge">
+        Learning
+      </span>
 
-    <h2>
-      HTML & CSS foundations
-    </h2>
+      <span class="date">
+        Published 21 Dec 2023
+      <span>
 
-    <p>
-      These languages are the backbone of every website, defining structure, content, and presentation.
-    </p>
+      <h2>
+        HTML & CSS foundations
+      </h2>
+
+      <p>
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+
+      <div class="author">
+        <img src="assets/images/image-avatar.webp" alt="Profile picture" />
+        <span>
+          Greg Cooper
+        </span>
+      </div>
+    </section>
+
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

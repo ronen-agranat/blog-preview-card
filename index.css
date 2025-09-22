@@ -112,6 +112,8 @@ p {
     font-weight: 700;
     size: 14px;
     line-height: 150%;
+
+    margin-bottom: var(--space-300);
 }
 
 .author img {
